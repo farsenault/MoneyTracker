@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="WpfApplication.UserControls.TransactionsGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApplication.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <DataGrid ItemsSource="{Binding MainWindowVM.Repository.Transactions, Mode=OneWay}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Date" Binding="{Binding Date, Mode=TwoWay, StringFormat=d}"/>
+            <DataGridTextColumn Header="Memo" Binding="{Binding Memo, Mode=TwoWay}"/>
+            <DataGridTextColumn Header="ReceiptId" Binding="{Binding ReceiptId, Mode=OneWay}"/>
+            <DataGridTemplateColumn>
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Edit" Command="{Binding DataContext.EditCommand, Mode=OneTime, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" CommandParameter="{Binding}" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTemplateColumn>
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Delete" Command="{Binding DataContext.DeleteCommand, Mode=OneTime, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" CommandParameter="{Binding}" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+        </DataGrid.Columns>
+        <DataGrid.RowDetailsTemplate>
+            <DataTemplate>
+                <DataGrid ItemsSource="{Binding Details, Mode=OneWay}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Account">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding DataContext.MainWindowVM.Repository.Accounts, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" DisplayMemberPath="Name" SelectedValuePath="Id" SelectedValue="{Binding AccountId}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Product">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding DataContext.MainWindowVM.Repository.Categories, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" DisplayMemberPath="Name" SelectedValuePath="Id" SelectedValue="{Binding ProductId}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Reference" Binding="{Binding Reference, Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="Credit" Binding="{Binding CreditAmount, Mode=TwoWay, StringFormat=c2}"/>
+                        <DataGridTextColumn Header="Debit" Binding="{Binding DebitAmount, Mode=TwoWay, StringFormat=c2}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </DataTemplate>
+        </DataGrid.RowDetailsTemplate>
+    </DataGrid>
+</UserControl>

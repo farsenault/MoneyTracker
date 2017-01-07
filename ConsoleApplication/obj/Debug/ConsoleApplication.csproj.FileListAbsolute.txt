@@ -1,0 +1,17 @@
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ConsoleApplication\obj\Debug\ConsoleApplication.pdb

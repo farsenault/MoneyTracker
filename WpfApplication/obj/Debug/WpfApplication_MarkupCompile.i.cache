@@ -1,0 +1,20 @@
+﻿WpfApplication
+
+
+winexe
+C#
+.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\
+WpfApplication
+none
+false
+DEBUG;TRACE
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\App.xaml
+13-564748226
+
+42-108222662
+22-1189542788
+MainWindow.xaml;UserControls\AccountEntry.xaml;UserControls\AccountsGrid.xaml;UserControls\AddressEntry.xaml;UserControls\CategoryEntry.xaml;UserControls\ProductEntry.xaml;UserControls\TransactionDetailsGrid.xaml;UserControls\TransactionEntry.xaml;UserControls\SaveWindow.xaml;UserControls\ScheduledTransactionEntry.xaml;UserControls\ScheduledTransactionsGrid.xaml;UserControls\TransactionFrequencyEntry.xaml;UserControls\TransactionsGrid.xaml;
+
+False
+

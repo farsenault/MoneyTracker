@@ -1,0 +1,15 @@
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache

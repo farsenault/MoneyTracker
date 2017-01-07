@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="WpfApplication.UserControls.ScheduledTransactionsGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApplication.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <DataGrid ItemsSource="{Binding ScheduledTransactions, Mode=OneWay}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True">
+        <DataGrid.Columns>
+            <DataGridTemplateColumn Header="From">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <ComboBox ItemsSource="{Binding DataContext.Accounts, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" DisplayMemberPath="Name" SelectedValuePath="Id" SelectedValue="{Binding FromAccountId}" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTemplateColumn Header="To">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <ComboBox ItemsSource="{Binding DataContext.Accounts, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" DisplayMemberPath="Name" SelectedValuePath="Id" SelectedValue="{Binding ToAccountId}" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTextColumn Header="Memo" Binding="{Binding Memo, Mode=TwoWay}"/>
+            <DataGridTextColumn Header="BeginDate" Binding="{Binding Frequency.BeginDate, Mode=TwoWay, StringFormat=d}"/>
+            <DataGridTextColumn Header="EndDate" Binding="{Binding Frequency.EndDate, Mode=TwoWay, StringFormat=d}"/>
+            <DataGridCheckBoxColumn Header="Daily" Binding="{Binding Frequency.IsDaily, Mode=TwoWay}" />
+            <DataGridCheckBoxColumn Header="Weekly" Binding="{Binding Frequency.IsWeekly, Mode=TwoWay}" />
+            <DataGridCheckBoxColumn Header="Monthly" Binding="{Binding Frequency.IsMonthly, Mode=TwoWay}" />
+            <DataGridTextColumn Header="Value" Binding="{Binding Frequency.Value, Mode=TwoWay}"/>
+            <DataGridTemplateColumn>
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Apply" Command="{Binding DataContext.ApplyCommand, Mode=OneTime, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" CommandParameter="{Binding}" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTemplateColumn>
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Edit" Command="{Binding DataContext.EditCommand, Mode=OneTime, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" CommandParameter="{Binding}" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTemplateColumn>
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Delete" Command="{Binding DataContext.DeleteCommand, Mode=OneTime, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" CommandParameter="{Binding}" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+        </DataGrid.Columns>
+
+        <DataGrid.RowDetailsTemplate>
+            <DataTemplate>
+                <DataGrid ItemsSource="{Binding Details, Mode=OneWay}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Reference" Binding="{Binding Reference, Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="Amount" Binding="{Binding Amount, StringFormat=c2, Mode=TwoWay}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </DataTemplate>
+        </DataGrid.RowDetailsTemplate>
+    </DataGrid>
+</UserControl>

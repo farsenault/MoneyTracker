@@ -1,0 +1,111 @@
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\bin\Debug\WpfApplication.exe.config
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.csprojResolveAssemblyReference.cache
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\MainWindow.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\App.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.cache
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.lref
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\bin\Debug\WpfApplication.exe
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\bin\Debug\WpfApplication.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\ReceiptEntry.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\MainWindow.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\ReceiptEntry.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.g.resources
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.Properties.Resources.resources
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.csproj.GenerateResource.Cache
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.exe
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\bin\Debug\ClassLibrary.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\bin\Debug\ClassLibrary.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\AccountEntry.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\AccountEntry.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionFrequencyEntry.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionFrequencyEntry.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\SaveWindow.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\SaveWindow.baml
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\bin\Debug\WpfApplication.exe.config
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.exe
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.pdb
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\bin\Debug\WpfApplication.exe
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\bin\Debug\WpfApplication.pdb
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\bin\Debug\ClassLibrary.dll
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\bin\Debug\ClassLibrary.pdb
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.csprojResolveAssemblyReference.cache
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\MainWindow.g.cs
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\AccountEntry.g.cs
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\ReceiptEntry.g.cs
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\SaveWindow.g.cs
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionFrequencyEntry.g.cs
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\App.g.cs
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.cache
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.lref
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\MainWindow.baml
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\AccountEntry.baml
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\ReceiptEntry.baml
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\SaveWindow.baml
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionFrequencyEntry.baml
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.g.resources
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.Properties.Resources.resources
+C:\Users\ftank99\Desktop\MoneyTracker\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.csproj.GenerateResource.Cache
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\WpfApplication.exe.config
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\WpfApplication.exe
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\WpfApplication.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\ClassLibrary.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\ClassLibrary.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.csprojResolveAssemblyReference.cache
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\MainWindow.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\AccountEntry.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\SaveWindow.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionFrequencyEntry.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\App.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.cache
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.lref
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\MainWindow.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\AccountEntry.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\SaveWindow.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionFrequencyEntry.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.g.resources
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.Properties.Resources.resources
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.csproj.GenerateResource.Cache
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.exe
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\WpfApplication.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\AddressEntry.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\AddressEntry.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\ScheduledTransactionEntry.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\ScheduledTransactionEntry.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionsGrid.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionsGrid.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\ScheduledTransactionsGrid.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\ScheduledTransactionsGrid.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\AccountsGrid.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\AccountsGrid.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionEntry.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionEntry.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\CategoryEntry.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\ProductEntry.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\CategoryEntry.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\ProductEntry.baml
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\WPFToolkit.dll
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\bin\Debug\WPFToolkit.pdb
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionDetailsGrid.g.cs
+D:\Users\ftank_000\Documents\Visual Studio 2015\Projects\MoneyTracker\WpfApplication\obj\Debug\UserControls\TransactionDetailsGrid.baml
