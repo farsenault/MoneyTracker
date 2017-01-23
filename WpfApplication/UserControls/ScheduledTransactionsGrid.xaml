@@ -7,29 +7,30 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
 
-    <DataGrid ItemsSource="{Binding ScheduledTransactions, Mode=OneWay}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True">
+    <DataGrid ItemsSource="{Binding ScheduledTransactions, Mode=OneWay}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
         <DataGrid.Columns>
+            <DataGridCheckBoxColumn Header="Enabled" Binding="{Binding IsEnabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
             <DataGridTemplateColumn Header="From">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
-                        <ComboBox ItemsSource="{Binding DataContext.Accounts, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" DisplayMemberPath="Name" SelectedValuePath="Id" SelectedValue="{Binding FromAccountId}" />
+                        <ComboBox ItemsSource="{Binding DataContext.Accounts, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="Name" SelectedValuePath="Id" SelectedValue="{Binding FromAccountId}" />
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
             <DataGridTemplateColumn Header="To">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
-                        <ComboBox ItemsSource="{Binding DataContext.Accounts, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}" DisplayMemberPath="Name" SelectedValuePath="Id" SelectedValue="{Binding ToAccountId}" />
+                        <ComboBox ItemsSource="{Binding DataContext.Accounts, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="Name" SelectedValuePath="Id" SelectedValue="{Binding ToAccountId}" />
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
-            <DataGridTextColumn Header="Memo" Binding="{Binding Memo, Mode=TwoWay}"/>
-            <DataGridTextColumn Header="BeginDate" Binding="{Binding Frequency.BeginDate, Mode=TwoWay, StringFormat=d}"/>
-            <DataGridTextColumn Header="EndDate" Binding="{Binding Frequency.EndDate, Mode=TwoWay, StringFormat=d}"/>
-            <DataGridCheckBoxColumn Header="Daily" Binding="{Binding Frequency.IsDaily, Mode=TwoWay}" />
-            <DataGridCheckBoxColumn Header="Weekly" Binding="{Binding Frequency.IsWeekly, Mode=TwoWay}" />
-            <DataGridCheckBoxColumn Header="Monthly" Binding="{Binding Frequency.IsMonthly, Mode=TwoWay}" />
-            <DataGridTextColumn Header="Value" Binding="{Binding Frequency.Value, Mode=TwoWay}"/>
+            <DataGridTextColumn Header="Memo" Binding="{Binding Memo, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <DataGridTextColumn Header="BeginDate" Binding="{Binding Frequency.BeginDate, Mode=TwoWay, StringFormat=d, UpdateSourceTrigger=PropertyChanged}"/>
+            <DataGridTextColumn Header="EndDate" Binding="{Binding Frequency.EndDate, Mode=TwoWay, StringFormat=d, UpdateSourceTrigger=PropertyChanged}"/>
+            <DataGridCheckBoxColumn Header="Daily" Binding="{Binding Frequency.IsDaily, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <DataGridCheckBoxColumn Header="Weekly" Binding="{Binding Frequency.IsWeekly, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <DataGridCheckBoxColumn Header="Monthly" Binding="{Binding Frequency.IsMonthly, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <DataGridTextColumn Header="Value" Binding="{Binding Frequency.Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
             <DataGridTemplateColumn>
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
@@ -57,8 +58,8 @@
             <DataTemplate>
                 <DataGrid ItemsSource="{Binding Details, Mode=OneWay}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Reference" Binding="{Binding Reference, Mode=TwoWay}"/>
-                        <DataGridTextColumn Header="Amount" Binding="{Binding Amount, StringFormat=c2, Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="Reference" Binding="{Binding Reference, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                        <DataGridTextColumn Header="Amount" Binding="{Binding Amount, StringFormat=c2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </DataTemplate>

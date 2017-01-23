@@ -9,25 +9,34 @@ namespace ClassLibrary
         public static IEnumerable<Transaction> Simulate(this ScheduledTransaction scheduledTransaction, DateTime beginDate, DateTime endDate)
         {
             var result = new List<Transaction>();
+
+            if (!scheduledTransaction.IsEnabled)
+            {
+                return result;
+            }
+
             var currentDate = scheduledTransaction.Frequency.BeginDate.Date;
 
             while (currentDate <= endDate)
             {
-                var trans = new Transaction()
+                if (!scheduledTransaction.DisabledDates.Contains(currentDate))
                 {
-                    Date = currentDate,
-                    Id = Guid.NewGuid(),
-                    Memo = scheduledTransaction.Memo,
-                    ScheduledTransactionId = scheduledTransaction.Id
-                };
+                    var trans = new Transaction()
+                    {
+                        Date = currentDate,
+                        Id = Guid.NewGuid(),
+                        Memo = scheduledTransaction.Memo,
+                        ScheduledTransactionId = scheduledTransaction.Id
+                    };
 
-                foreach (var detail in scheduledTransaction.Details)
-                {
-                    trans.Details.Add(new TransactionDetail() { Id = Guid.NewGuid(), Reference = detail.Reference, AccountId = scheduledTransaction.FromAccountId, DebitAmount = detail.Amount, TransactionId = trans.Id });
-                    trans.Details.Add(new TransactionDetail() { Id = Guid.NewGuid(), Reference = detail.Reference, AccountId = scheduledTransaction.ToAccountId, CreditAmount = detail.Amount, TransactionId = trans.Id });
+                    foreach (var detail in scheduledTransaction.Details)
+                    {
+                        trans.Details.Add(new TransactionDetail() { Id = Guid.NewGuid(), Reference = detail.Reference, AccountId = scheduledTransaction.FromAccountId, DebitAmount = detail.Amount, TransactionId = trans.Id });
+                        trans.Details.Add(new TransactionDetail() { Id = Guid.NewGuid(), Reference = detail.Reference, AccountId = scheduledTransaction.ToAccountId, CreditAmount = detail.Amount, TransactionId = trans.Id });
+                    }
+
+                    result.Add(trans);
                 }
-
-                result.Add(trans);
 
                 if (scheduledTransaction.Frequency.IsDaily)
                 {

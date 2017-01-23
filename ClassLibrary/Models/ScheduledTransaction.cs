@@ -13,6 +13,8 @@ namespace ClassLibrary.Models
         private Guid _fromAccountId;
         private Guid _toAccountId;
         private ObservableCollection<ScheduledTransactionDetail> _details = new ObservableCollection<ScheduledTransactionDetail>();
+        private bool _isEnabled;
+        private ObservableCollection<DateTime> _disabledDates = new ObservableCollection<DateTime>();
 
         #endregion
 
@@ -93,6 +95,40 @@ namespace ClassLibrary.Models
                 {
                     _details = value;
                     OnPropertyChanged(nameof(Details));
+                }
+            }
+        }
+
+        public bool IsEnabled
+        {
+            get
+            {
+                return _isEnabled;
+            }
+
+            set
+            {
+                if (OnPropertyChanging(nameof(IsEnabled), _isEnabled, value))
+                {
+                    _isEnabled = value;
+                    OnPropertyChanged(nameof(IsEnabled));
+                }
+            }
+        }
+
+        public ObservableCollection<DateTime> DisabledDates
+        {
+            get
+            {
+                return _disabledDates;
+            }
+
+            set
+            {
+                if (OnPropertyChanging(nameof(DisabledDates), _disabledDates, value))
+                {
+                    _disabledDates = value;
+                    OnPropertyChanged(nameof(DisabledDates));
                 }
             }
         }
